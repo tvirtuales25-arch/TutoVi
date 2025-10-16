@@ -1,0 +1,75 @@
+header {
+            background-image: url(../img/banner.jpg);
+            background-color: #f0f0f0; /* Fondo gris claro */
+            color: black; /* Color de texto oscuro */
+            padding: 10px; /* Relleno interno */
+            margin-bottom: 20px; /* Margen de 20px debajo del header */
+            border: 1px solid #ccc; /* Borde sutil */
+            text-align: center; /* Texto centrado */
+            -webkit-text-stroke: 0.5px white;
+}
+body {
+            /* NOTA: Estos son los estilos para *toda* la página.
+               Para aplicar estilos a solo el *contenido* dentro del body,
+               es mejor usar un contenedor como <main> o <div>.
+               Aquí aplicaremos al <body> para el ejemplo:
+            */
+            font-family: Arial, sans-serif; /* Tipo de letra */
+            margin: 0; /* Elimina el margen por defecto del navegador */
+            padding: 0;
+            background-color: #ffffff; /* Fondo blanco */
+}
+main {
+            width: 80%; /* Ancho del contenido */
+            margin: 0 auto; /* Centra el contenido horizontalmente (margen superior/inferior 0, izquierdo/derecho auto) */
+            padding: 30px;
+            background-color: #e1e5ff; /* Fondo amarillo muy claro para diferenciar */
+}
+footer {
+            background-color: #333; /* Fondo oscuro */
+            color: white; /* Color de texto claro */
+            padding: 15px; /* Relleno interno */
+            margin-top: 30px; /* Margen de 30px encima del footer */
+            text-align: center; /* Texto centrado */
+            font-size: 0.9em; /* Tamaño de letra más pequeño */
+}
+.estilonav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.estilonav li a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    -webkit-text-stroke: 0;
+}
+.estilonav li a:hover{
+    background-color: blueviolet;
+}
+img{
+    width: 50%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10%;
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+}
+#img2{
+    width: 30%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10%;
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+}
+#img3{
+    width: 50%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10%;
+    box-shadow: 0 0 10px rgb(0, 0, 255);
+}
